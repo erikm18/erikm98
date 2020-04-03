@@ -1,4 +1,4 @@
-import React, {useState, useMemo, useEffect} from 'react'
+import React, {useEffect, useMemo, useState} from 'react'
 import useSolidValue from '@bast1oncz/state/dist/useSolidValue'
 import './App.css'
 import useRenderTime from './renderTime'
@@ -21,7 +21,9 @@ function App() {
     const lazySearchLastName = useSolidValue(searchLastName, 1000)
     const filteredUsers = useMemo(() => {
         console.log({searchFirstName, searchLastName: searchLastName})
-        return users.filter(user => ((new RegExp('^' + lazySearchFirstName).test(user.firstName)) && (new RegExp('^' + lazySearchLastName).test(user.lastName))))
+        return users
+            .filter(user => ((new RegExp('^' + lazySearchFirstName).test(user.firstName)) && (new RegExp('^' + lazySearchLastName).test(user.lastName))))
+            .slice(0, 10)
     }, [lazySearchFirstName, lazySearchLastName])
     useRenderTime()
     useEffect(() => showWarning('Změna!'), [lazySearchFirstName, lazySearchLastName])
@@ -52,7 +54,7 @@ function App() {
                             <TableHead>
                                 <TableRow>
                                     <TableCell>ID</TableCell>
-                                    <TableCell sortDirection={'asc'}>First Name</TableCell>
+                                    <TableCell sortDirection="asc">First Name</TableCell>
                                     <TableCell>Last Name</TableCell>
                                 </TableRow>
                                 <TableRow>
@@ -64,19 +66,16 @@ function App() {
                                 </TableRow>
                             </TableHead>
                             <TableBody>
-                                {
-                                    filteredUsers.slice(0, 10).map(user => {
-                                        const {firstName, lastName, id} = user
-                                        return (
-                                            <TableRow key={id}>
-                                                <TableCell>{id}</TableCell>
-                                                <TableCell>{firstName}</TableCell>
-                                                <TableCell>{lastName}</TableCell>
-                                            </TableRow>
-                                        )
-                                    })
-                                }
-
+                                {filteredUsers.map(user => {
+                                    const {firstName, lastName, id} = user
+                                    return (
+                                        <TableRow key={id}>
+                                            <TableCell>{id}</TableCell>
+                                            <TableCell>{firstName}</TableCell>
+                                            <TableCell>{lastName}</TableCell>
+                                        </TableRow>
+                                    )
+                                })}
                             </TableBody>
                         </Table>
                     </TableContainer>

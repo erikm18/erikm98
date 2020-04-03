@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="d477b9b9-b372-4f8f-ab7e-86dc9b899fe4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,6 +51,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -59,6 +62,18 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="ts.external.directory.path" value="H:\PhpStorm\PhpStorm 2019.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
@@ -74,18 +89,6 @@
       <envs />
       <method v="2" />
     </configuration>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -130,49 +133,54 @@
       <workItem from="1585251748348" duration="1343000" />
       <workItem from="1585402681656" duration="10634000" />
       <workItem from="1585819102114" duration="3530000" />
-      <workItem from="1585822765549" duration="2841000" />
-      <workItem from="1585826108300" duration="904000" />
-      <workItem from="1585932615413" duration="186000" />
-      <workItem from="1585932823951" duration="636000" />
+      <workItem from="1585822765549" duration="2040000" />
+      <workItem from="1585826791922" duration="474000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state x="790" y="359" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585823002811">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="790" y="359" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2048.1112@0.0.2048.1112" timestamp="1585823002811" />
-    <state x="773" y="392" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1585825644131">
+    <state width="2005" height="2" key="GridCell.Tab.0.bottom" timestamp="1585824077103">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="773" y="392" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1585825644131" />
-    <state width="2005" height="2" key="GridCell.Tab.0.bottom" timestamp="1585932812280">
+    <state width="2005" height="2" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1585824077103" />
+    <state width="2005" height="2" key="GridCell.Tab.0.center" timestamp="1585824077103">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="2" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1585932812280" />
-    <state width="2005" height="2" key="GridCell.Tab.0.center" timestamp="1585932812280">
+    <state width="2005" height="2" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1585824077103" />
+    <state width="2005" height="2" key="GridCell.Tab.0.left" timestamp="1585824077103">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="2" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1585932812280" />
-    <state width="2005" height="2" key="GridCell.Tab.0.left" timestamp="1585932812280">
+    <state width="2005" height="2" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1585824077103" />
+    <state width="2005" height="2" key="GridCell.Tab.0.right" timestamp="1585824077103">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="2" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1585932812280" />
-    <state width="2005" height="2" key="GridCell.Tab.0.right" timestamp="1585932812280">
-      <screen x="0" y="0" width="2048" height="1112" />
-    </state>
-    <state width="2005" height="2" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1585932812280" />
+    <state width="2005" height="2" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1585824077103" />
     <state x="1025" y="350" key="SettingsEditor" timestamp="1585823959996">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="1025" y="350" key="SettingsEditor/0.0.2048.1112@0.0.2048.1112" timestamp="1585823959996" />
-    <state x="721" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1585932824290">
+    <state x="721" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1585822766150">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="721" y="380" key="com.intellij.ide.util.TipDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1585932824290" />
+    <state x="721" y="380" key="com.intellij.ide.util.TipDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1585822766150" />
     <state x="834" y="473" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580472334353">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
